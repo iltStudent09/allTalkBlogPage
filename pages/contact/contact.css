@@ -1,0 +1,144 @@
+/* ── Reset & base ───────────────────────────────────────────── */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: #f5f5f0;
+	color: #333;
+	line-height: 1.7;
+}
+
+a {
+	color: #c0392b;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* ── Header ─────────────────────────────────────────────────── */
+.site-header {
+	background-color: #2c3e50;
+	color: #fff;
+	text-align: center;
+	padding: 40px 20px;
+}
+
+.site-title {
+	font-size: 2.5rem;
+	letter-spacing: 2px;
+}
+
+.site-tagline {
+	margin-top: 8px;
+	font-size: 1rem;
+	color: #bdc3c7;
+	font-style: italic;
+}
+
+/* ── Navigation ─────────────────────────────────────────────── */
+.site-nav {
+	background-color: #e74c3c;
+}
+
+.site-nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 0;
+}
+
+.site-nav ul li a {
+	display: block;
+	padding: 14px 28px;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.95rem;
+	letter-spacing: 1px;
+}
+
+.site-nav ul li a:hover {
+	background-color: #c0392b;
+	text-decoration: none;
+}
+
+/* ── Main layout ────────────────────────────────────────────── */
+.main-content {
+	max-width: 700px;
+	margin: 40px auto;
+	padding: 0 20px;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-shadow: 0 2px 8px rgba(44,62,80,0.04);
+}
+
+/* ── Contact Form ───────────────────────────────────────────── */
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+	margin: 32px 0;
+}
+
+.contact-form label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	color: #2c3e50;
+	margin-bottom: 6px;
+}
+
+.contact-form input,
+.contact-form textarea {
+	padding: 10px 12px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 1rem;
+	font-family: inherit;
+	background: #fafafa;
+	transition: border-color 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+	border-color: #e74c3c;
+	outline: none;
+}
+
+.contact-form textarea {
+	min-height: 100px;
+	resize: vertical;
+}
+
+.contact-form button {
+	background-color: #e74c3c;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	padding: 12px 28px;
+	font-size: 1rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+.contact-form button:hover {
+	background-color: #c0392b;
+}
+
+/* ── Footer ─────────────────────────────────────────────────── */
+.site-footer {
+	background-color: #2c3e50;
+	color: #bdc3c7;
+	text-align: center;
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.85rem;
+}
